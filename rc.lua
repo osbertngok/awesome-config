@@ -503,6 +503,25 @@ awful.rules.rules = {
       }, properties = { titlebars_enabled = true }
     },
 
+    { rule = { class= "Google-chrome" },
+      properties = { tag = "2.chrome" } },
+
+    { rule = { class= "jetbrains-pycharm-ce" },
+      properties = {tag = "3.ide" } },
+
+    { rule = { class= "Mattermost" },
+      properties = { tag = "4.mm" } },
+
+    { rule = { class= "Thunderbird" },
+      properties = { tag = "5.mail" } },
+
+    { rule = { class= "Vncviewer" },
+      properties = { tag = "7.vnc" } },
+
+    { rule = { class="Sublime_text" },
+      properties = { tag = "8.subl" } },
+
+
     -- Set Firefox to always map on the tag named "2" on screen 1.
     -- { rule = { class = "Firefox" },
     --   properties = { screen = 1, tag = "2" } },
